@@ -11,11 +11,22 @@
     tools:context="com.example.android.tbtest.MainActivity">
 
     <Button
-        android:text="@string/click"
+        android:text="Sem TalkBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/b1"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp" />
+
+    <Button
+        android:text="Com TalkBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:layout_marginTop="130dp"
+        android:layout_below="@+id/b1"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_alignStart="@+id/b1" />
 
 </RelativeLayout>
